@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cloudBg {
+    width: 100vw;
+}
+.cloudBg img{
+    width: 100vw;
+    height: 30vh;
+}
+.treeBg{
+    width: 100vw;
+}
+.treeBg{
+    height: 40vh;
+}
+.treeBg img{
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    bottom: 20vh;
+}
+.trackBg{
+    width: 100vw;
+}
+.trackBg #car-body{
+    position: absolute;
+    width: 167px;
+    height: 40px;
+    bottom: 70px;
+}
+.trackBg #left-wheel{
+    width: 30px;
+    height: 28px;
+    position: absolute;
+    left: 21px;
+    bottom: 67px;
+}
+.trackBg #right-wheel{
+    width: 30px;
+    height: 28px;
+    position: absolute;
+    left: 105px;
+    bottom: 66px;
+}
+.trackBg #track{
+    width: 100vw;
+    height: 26vh;
+}
+#car-animation{
+    /* animation: 5s moving ease-in-out 1 forwards; */
+    position: absolute;
+    bottom: 9px;
+    width: 200px;
+    height: 100px;
+    left: 0px;
+}
+@keyframes moving {
+    0%   {left: 0px;  }
+    25%  {left: 100px;  }
+    50%  {left: 200px;  }
+    75%  {left: 300px;  }
+    100% {left: 400px;  }
+  }
+
+#btn{
+    height: 30px;
+    padding: 5px;
+    font-size: 9px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    background-color: rgb(223, 77, 77);
+    color: rgb(0, 0, 0);
+}
