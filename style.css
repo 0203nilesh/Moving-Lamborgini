@@ -30,7 +30,7 @@ body{
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     position: absolute;
-    animation: carmove 4s linear  infinite;
+    animation: carmove 3s linear  infinite;
     top: 70vh;
 }
 
